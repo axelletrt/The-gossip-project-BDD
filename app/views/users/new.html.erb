@@ -1,0 +1,21 @@
+<div class="container">
+<br>
+
+<h1>Veuilez remplir les informations suivantes pour créer votre compte</h2>
+<%= form_for @user, url: {action: "create"} do |f| %>
+   	Pseudo <%= f.text_field :name, class:"form-control", placeholder:"pseudo"%><br>
+  	Email <%= f.text_field :email, class: "form-control", placeholder:"email"%><br>
+  	Mot de Passe <%= f.text_area :password, class: "form-control", placeholder:"mot de passe"%><br>
+  	<%= f.submit "Créer mon compte"%>
+<% end %>
+
+
+</div>
+
+
+
+
+
+
+    
+

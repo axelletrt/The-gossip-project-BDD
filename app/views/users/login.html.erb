@@ -1,0 +1,11 @@
+<h1>Veuillez rentrer votre mail et votre mot de passe pour vous connecter</h1>
+<a href="/">Retourner à l'accueil</a>
+<%= form_tag "/users/login", method: :post do %>
+  nom : <input type="text" name="name" />
+  mot de passe: <input type="password" name="password" />
+  <input type="submit" value="Se connecter" />
+<% end %>
+
+
+
+

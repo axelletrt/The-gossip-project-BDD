@@ -1,0 +1,30 @@
+    <h3>Le fameux petit gossip : </h3>
+        <br><%= @gossip.title %></br>
+        <br><%= @gossip.content %></br>
+    <%= link_to "Revenir à l'acceuil (formulaire)", gossips_path %>
+    </p> 
+
+
+    <h3>Hop, hop, hop pour ajouter un commentaire c'est ici !</h3>
+    <%= form_with(model: [ @gossip, @gossip.comments.build ], local: true) do |form| %>
+    <p>
+    Mettre le numéro d'utilisateur 1 <%= form.text_field :user_id %>
+    </p>
+    <p>
+       Ton commentaire :<%= form.text_area :content %>
+    </p>
+    <p>
+        <%= form.submit %>
+    </p>
+    <% end %>
+
+
+
+
+
+
+
+
+
+
+

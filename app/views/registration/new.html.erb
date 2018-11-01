@@ -1,0 +1,14 @@
+
+    <%= form_for @gossip do |f| %>
+        <div class =”form-group”>
+        <div class ='container'
+        <br><label>Formulaire de création de compte utilisateur</label></br>
+        ton email mon chou?: <br><%= f.text_field :email  %></br>
+        ton petit nom?: <br><%= f.text_field :name %></br>
+        ton mot de passe?(promis c'est secret): <br><%= f.text_field :password %></br>
+        <%= f.submit "Soumettre mon formulaire" %>
+        </div>
+        </div> 
+        <% end %> 
+    
+        

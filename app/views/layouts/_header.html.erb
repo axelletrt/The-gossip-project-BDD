@@ -1,0 +1,17 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <nav>
+    <%= "The Gossip Website, le meilleur site de création de potins!" %></li>
+ 
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to  "Accueil", gossips_path %></li>
+        <li><%= link_to "Consulter tous les gossips", gossips_path %></li>
+        <li><%= link_to "Nouveau gossip", new_gossip_path %></li>
+        <li><%= link_to "S'identifier", new_user_path %></li>
+        <li><%= link_to "Connexion", users_login_path %></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+

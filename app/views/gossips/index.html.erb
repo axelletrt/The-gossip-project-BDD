@@ -1,6 +1,3 @@
-
-
-    <% if session[:user_id] != nil %> 
     <p> 
     <a href="<%= new_gossip_path %>" class="btn btn-success">Créer un gossip</a> 
     </p> 
@@ -9,7 +6,7 @@
     <% @gossips.each do |gossip| %>
     <h2><%= gossip.title %></h2>
     <p><%= gossip.content %></p>
-    
+
     <p> 
     <a href="<%= gossip_path(gossip.id)%>" class= "btn btn-primary">Consulter ce gossip et ajouter un commentaire</a>
     <a href="<%= edit_gossip_path(gossip.id)%>" class= "btn btn-default">Modifier ce gossip</a>
@@ -18,10 +15,6 @@
 
     <% end %>
 
-
-    <% else %> 
-    <h1> Va te connecter petit Malfra !</h1> 
-    <% end %> 
 
 
 

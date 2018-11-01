@@ -1,4 +1,4 @@
-Bonjour, bienvenue sur une petite application pour créer 'new) des gossips, les éditer (update) et les supprimer :) 
+Bonjour, bienvenue sur une petite application pour créer (new) des gossips, les éditer (update) et les supprimer :) 
 
 Pour commencer : 
 - Va sur le bouton "créer un compte"

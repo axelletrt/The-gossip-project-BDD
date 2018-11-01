@@ -1,4 +1,6 @@
 
+    <% if session[:user_id] != nil %> 
+
     <%= form_for @gossip do |f| %>
     <div class =”form-group”>
     <br><label>Formulaire de création de Gossip</label></br>
@@ -7,6 +9,11 @@
     <%= f.submit "Soumettre mon formulaire" %>
     </div>
     <% end %> 
+
+    <% else %> 
+    <h1> Va te connecter petit Malfra !</h1> 
+    <% end %> 
+    
 
     
 

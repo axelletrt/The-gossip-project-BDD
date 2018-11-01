@@ -6,6 +6,27 @@
   <%= link_to "Enregistre-toi!", new_user_path, class: "btn btn-lg btn-primary" %>
 
   <h3>
-  <%= link_to "Connect-toi! !", users_login_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to "Connecte-toi! !", users_login_path, class: "btn btn-lg btn-primary" %>
   </h3> 
 </div>
+
+
+<% if session[:user_id] != nil %>
+<h1> Tu peux maintenant acceder aux gossips </h1>
+<a href= "#">Voir gossip
+<% else %>
+  <h1>Bienvenue visiteur anonyme !</h1>
+  <a href="/users/login">S'identifier</a>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+

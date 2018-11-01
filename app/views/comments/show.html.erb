@@ -6,6 +6,15 @@
 </p>
 
 
+<% @gossip.comments.each do |comment| %>
+	<%= comment.anonymous_commentor %>
+	<p><%= comment.content %><p><br>
+<% end %>
+
+
+
+
+
 
 
 

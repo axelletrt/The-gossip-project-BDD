@@ -19,10 +19,9 @@ class CommentsController < ApplicationController
           params.require(:comment).permit(:user_id, :body)
         end
 
-    def show 
-         @comment = Comment.find(params[:id])
-    end 
-
+        def show
+            @comment = Comment.find(id: params[:comment_id])
+        end
 end
 
 

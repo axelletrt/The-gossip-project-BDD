@@ -1,24 +1,17 @@
-# README
+Bonjour, bienvenue sur une petite application pour créer 'new) des gossips, les éditer (update) et les supprimer :) 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pour commencer : 
+- Va sur le bouton "créer un compte"
+- Si tout se passe bien il te souhaite la bienvenue et tu peux créer ton premier gossip
+- A partir de là, tu peux accéder aux boutons "consulter et ajouter un commentaire", "modifier le gossip" et "supprimer" (avec même un petit message d'ereur)
 
-Things you may want to cover:
+PS : Il n'y a pas de likes de gossips/commentaires ni de commentaires de commentaires :) 
 
-* Ruby version
+Lien du projet en ligne : https://my-gossip-project.herokuapp.com/
 
-* System dependencies
+En collaboration avec @victorian roques 
 
-* Configuration
 
-* Database creation
+:smiley_cat:
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
